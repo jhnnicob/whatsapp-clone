@@ -1,0 +1,67 @@
+[debug] [2023-04-16T05:00:43.068Z] ----------------------------------------------------------------------
+[debug] [2023-04-16T05:00:43.069Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\john.molon\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-04-16T05:00:43.070Z] CLI Version:   11.27.0
+[debug] [2023-04-16T05:00:43.070Z] Platform:      win32
+[debug] [2023-04-16T05:00:43.070Z] Node Version:  v18.16.0
+[debug] [2023-04-16T05:00:43.074Z] Time:          Sun Apr 16 2023 13:00:43 GMT+0800 (Philippine Standard Time)
+[debug] [2023-04-16T05:00:43.074Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-16T05:00:43.139Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-16T05:00:43.139Z] > authorizing via signed-in user (molonjohnnico@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\john.molon\reactjs\whatsapp-clone
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-04-16T05:00:49.434Z] Using project from CLI flag: whatsapp-clone-a29e0
+[debug] [2023-04-16T05:00:49.437Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/whatsapp-clone-a29e0 [none]
+[debug] [2023-04-16T05:00:49.924Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/whatsapp-clone-a29e0 200
+[debug] [2023-04-16T05:00:49.924Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/whatsapp-clone-a29e0 {"projectId":"whatsapp-clone-a29e0","projectNumber":"953897563098","displayName":"whatsapp-clone","name":"projects/whatsapp-clone-a29e0","resources":{"hostingSite":"whatsapp-clone-a29e0"},"state":"ACTIVE","etag":"1_fc1477f3-55f1-466b-be6f-762e704c9230"}
+[info] i  Using project whatsapp-clone-a29e0 (whatsapp-clone) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] i  Skipping write of public/404.html 
+[debug] [2023-04-16T05:01:38.540Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-04-16T05:01:38.646Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-04-16T05:01:38.647Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.19.1","browserURL":"https://www.gstatic.com/firebasejs/9.19.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.19.1/firebase.tgz"},"live":{"version":"9.19","browserURL":"https://www.gstatic.com/firebasejs/live/9.19/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.19/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.19.1/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.19.1/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.19.1/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.19.1/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.19.1/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.19.1/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.19.1/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.19.1/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.19.1/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.19.1/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.19.1/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.19.1/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.19.1/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.19.1/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.19.1/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.19.1/firebase-firestore.memory.js"}}
+[info] i  Skipping write of public/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Users\john.molon\reactjs\whatsapp-clone 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=568057213&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-04-16T05:01:41.680Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2023-04-16T05:01:41.681Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2023-04-16T05:01:42.103Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2023-04-16T05:01:42.103Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2023-04-16T05:01:42.117Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2023-04-16T05:01:42.576Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2023-04-16T05:01:42.576Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"jhnnicob","id":10582037,"node_id":"MDQ6VXNlcjEwNTgyMDM3","avatar_url":"https://avatars.githubusercontent.com/u/10582037?v=4","gravatar_id":"","url":"https://api.github.com/users/jhnnicob","html_url":"https://github.com/jhnnicob","followers_url":"https://api.github.com/users/jhnnicob/followers","following_url":"https://api.github.com/users/jhnnicob/following{/other_user}","gists_url":"https://api.github.com/users/jhnnicob/gists{/gist_id}","starred_url":"https://api.github.com/users/jhnnicob/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jhnnicob/subscriptions","organizations_url":"https://api.github.com/users/jhnnicob/orgs","repos_url":"https://api.github.com/users/jhnnicob/repos","events_url":"https://api.github.com/users/jhnnicob/events{/privacy}","received_events_url":"https://api.github.com/users/jhnnicob/received_events","type":"User","site_admin":false,"name":"Nico ","company":null,"blog":"https://nicomolon.com","location":"Nagcarlan, Laguna Philippines","email":"johnnicomolon@yahoo.com","hireable":null,"bio":"R&D Engineer/Android developer","twitter_username":null,"public_repos":46,"public_gists":0,"followers":26,"following":48,"created_at":"2015-01-18T09:27:37Z","updated_at":"2023-04-15T08:12:06Z","private_gists":0,"total_private_repos":2,"owned_private_repos":2,"disk_usage":8511,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as jhnnicob 
+[info] 
