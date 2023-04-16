@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          Hey this is Nico Professional Android Developer
+          Hey this is Nico Professional Android Develope
         </p>
       </header>
     </div>
